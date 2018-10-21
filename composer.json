@@ -9,7 +9,7 @@
     "composer/installers": "^1.6",
     "johnpbloch/wordpress": "^4.9",
     "roots/wp-password-bcrypt": "^1.0",
-    "jukelabs/wordpress-config": "dev-master",
+    "jukelabs/wordpress-starter-config": "dev-master",
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
     "wpackagist-plugin/aryo-activity-log": "*",
     "wpackagist-plugin/disable-blog": "*",
@@ -33,8 +33,8 @@
       "url": "https://wpackagist.org"
     },
     {
-      "type": "vcs",
-      "url": "../wordpress-config"
+      "type": "git",
+      "url": "https://github.com/JukeLabs/wordpress-starter-config.git"
     }
   ],
   "scripts": {

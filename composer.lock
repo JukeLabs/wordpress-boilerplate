@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b94ca2d0bd8ef42903ec73ee0ac0e62",
+    "content-hash": "38572b291a4385dd1a8ee29a9aa526d0",
     "packages": [
         {
             "name": "composer/installers",
@@ -255,12 +255,12 @@
             "time": "2018-01-29T14:49:29+00:00"
         },
         {
-            "name": "jukelabs/wordpress-config",
+            "name": "jukelabs/wordpress-starter-config",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "../wordpress-config",
-                "reference": "573ca13a999012eee3ce4b1f9abd3a02abdcc5ab"
+                "url": "https://github.com/JukeLabs/wordpress-starter-config.git",
+                "reference": "cb4790bb4e49bfa9510d0c0d74fd87568c89e12d"
             },
             "archive": {
                 "exclude": [
@@ -297,7 +297,7 @@
                 }
             ],
             "description": "WordPress config plugin",
-            "time": "2018-10-21T21:42:25+00:00"
+            "time": "2018-10-21T22:02:19+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -1041,7 +1041,7 @@
     "aliases": [],
     "minimum-stability": "alpha",
     "stability-flags": {
-        "jukelabs/wordpress-config": 20,
+        "jukelabs/wordpress-starter-config": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
