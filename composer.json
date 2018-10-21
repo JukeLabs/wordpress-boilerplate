@@ -1,0 +1,65 @@
+{
+  "name": "wordpress/starter",
+  "description": "A modern WordPress stack built with Composer",
+  "type": "project",
+  "keywords": [],
+  "minimum-stability": "alpha",
+  "require": {
+    "php": "^7.2",
+    "composer/installers": "^1.6",
+    "johnpbloch/wordpress": "^4.9",
+    "roots/wp-password-bcrypt": "^1.0",
+    "jukelabs/wordpress-config": "dev-master",
+    "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
+    "wpackagist-plugin/aryo-activity-log": "*",
+    "wpackagist-plugin/disable-blog": "*",
+    "wpackagist-plugin/disable-comments": "*",
+    "wpackagist-plugin/duplicate-post": "*",
+    "wpackagist-plugin/enable-media-replace": "*",
+    "wpackagist-plugin/ewww-image-optimizer": "*",
+    "wpackagist-plugin/force-regenerate-thumbnails": "*",
+    "wpackagist-plugin/force-strong-passwords": "*",
+    "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/safe-svg": "*",
+    "wpackagist-plugin/wordpress-seo": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.0.2",
+    "roave/security-advisories": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "../wordpress-config"
+    }
+  ],
+  "scripts": {
+    "post-install-cmd": [
+      "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
+    "test": [
+      "phpcs"
+    ]
+  },
+  "extra": {
+    "installer-paths": {
+      "web/content/themes/{$name}/": ["type:wordpress-theme"],
+      "web/content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/content/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin",
+        "wpackagist-plugin/wp-redis"
+      ]
+    },
+    "dropin-paths": {},
+    "wordpress-install-dir": "web/wp"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

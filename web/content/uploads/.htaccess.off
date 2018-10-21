@@ -1,0 +1,7 @@
+# Attempt to load files from production if they're not in our local version (replace {SITE URL} with your production server)
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule (.*) {SITE URL}/content/uploads/$1
+</IfModule>
