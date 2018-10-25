@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "38572b291a4385dd1a8ee29a9aa526d0",
+    "content-hash": "02a7fbaba7845ef99d6696098cc923bc",
     "packages": [
         {
             "name": "composer/installers",
@@ -562,26 +562,6 @@
             "time": "2018-07-29T20:33:41+00:00"
         },
         {
-            "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
-            "version": "2.1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/acf-content-analysis-for-yoast-seo/",
-                "reference": "tags/2.1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-content-analysis-for-yoast-seo.2.1.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/acf-content-analysis-for-yoast-seo/"
-        },
-        {
             "name": "wpackagist-plugin/aryo-activity-log",
             "version": "2.5.1",
             "source": {
@@ -722,26 +702,6 @@
             "homepage": "https://wordpress.org/plugins/force-regenerate-thumbnails/"
         },
         {
-            "name": "wpackagist-plugin/force-strong-passwords",
-            "version": "1.8.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/force-strong-passwords/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/force-strong-passwords.zip?timestamp=1510259124",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/force-strong-passwords/"
-        },
-        {
             "name": "wpackagist-plugin/redirection",
             "version": "3.5",
             "source": {
@@ -783,15 +743,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "8.4",
+            "version": "9.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/8.4"
+                "reference": "tags/9.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.8.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.9.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
