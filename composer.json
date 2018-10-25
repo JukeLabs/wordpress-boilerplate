@@ -10,7 +10,6 @@
     "johnpbloch/wordpress": "^4.9",
     "roots/wp-password-bcrypt": "^1.0",
     "jukelabs/wordpress-starter-config": "dev-master",
-    "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
     "wpackagist-plugin/aryo-activity-log": "*",
     "wpackagist-plugin/disable-blog": "*",
     "wpackagist-plugin/disable-comments": "*",
@@ -18,7 +17,6 @@
     "wpackagist-plugin/enable-media-replace": "*",
     "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
-    "wpackagist-plugin/force-strong-passwords": "*",
     "wpackagist-plugin/redirection": "*",
     "wpackagist-plugin/safe-svg": "*",
     "wpackagist-plugin/wordpress-seo": "*"

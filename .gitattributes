@@ -16,7 +16,6 @@ phpcs.xml export-ignore
 
 # Application Files
 /config/certs export-ignore
-/scripts export-ignore
 /tests export-ignore
 
 # General Files
