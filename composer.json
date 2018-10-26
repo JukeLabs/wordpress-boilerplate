@@ -1,11 +1,18 @@
 {
-  "name": "wordpress/starter",
-  "description": "A modern WordPress stack built with Composer",
+  "name": "jukelabs/wordpress-starter",
   "type": "project",
+  "license": "Unlicensed",
+  "description": "A modern WordPress stack built with Composer",
+  "authors": [
+    {
+      "name": "Ryan Powszok",
+      "email": "me@ryanpowszok.com",
+      "homepage": "https://ryanpowszok.com"
+    }
+  ],
   "keywords": [],
-  "minimum-stability": "alpha",
   "require": {
-    "php": "^7.2",
+    "php": "^7.1",
     "composer/installers": "^1.6",
     "johnpbloch/wordpress": "^4.9",
     "roots/wp-password-bcrypt": "^1.0",
@@ -36,11 +43,9 @@
     }
   ],
   "scripts": {
+    "test": ["phpcs"],
     "post-install-cmd": [
       "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-    ],
-    "test": [
-      "phpcs"
     ]
   },
   "extra": {
@@ -52,12 +57,12 @@
         "wpackagist-plugin/wp-redis"
       ]
     },
-    "dropin-paths": {},
     "wordpress-install-dir": "web/wp"
   },
   "config": {
     "preferred-install": "dist",
     "optimize-autoloader": true,
     "sort-packages": true
-  }
+  },
+  "minimum-stability": "alpha"
 }
